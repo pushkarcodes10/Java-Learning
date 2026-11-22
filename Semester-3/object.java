@@ -63,3 +63,26 @@ class Main {
         s.display();
     }
 }
+
+// toString()    
+
+class Student {
+    
+int rollNo = 101;
+String name = "Rahul";
+
+public String toString() {
+    
+return rollNo + " " + name;
+}
+}
+
+public class object {
+    
+public static void main(String[] args) {
+    
+Student s = new Student();
+
+System.out.println(s.toString());
+}
+}
